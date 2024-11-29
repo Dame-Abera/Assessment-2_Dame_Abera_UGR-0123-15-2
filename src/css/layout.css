@@ -1,0 +1,133 @@
+.header{
+    display: flex;
+    background-color: rgb(57, 72, 27);
+    height: 10rem;
+    flex-direction: column;
+    justify-content: center;
+    
+   
+    
+  
+}
+.main h2{
+    color: #328b8a;
+    font-family: serif;
+    font-size: 2rem;
+}
+
+.navbar h1{   text-align: center;
+    color: #ba9530;
+    font-size: 4rem;
+    margin: 0%;
+}
+.navbar h1 em{
+color: #eae7df;
+}   
+.navbar h2{
+    text-align: center;
+    color: #eae7df;
+}
+.navbar .button{
+    display: flex;
+    gap: 12px;
+    margin-left: 20px;
+    gap: 2rem;
+    color: #c4ae71;
+    margin-bottom: 10px;
+}
+.navbar .button a{
+    background-color: rgb(90, 146, 44);
+    color: #f6f5f2;
+    font: 1.5rem sans-serif;
+    margin-bottom: 15px;
+    border-radius: 10%;
+}
+.navbar .button div a{
+    color: #f5f6f1;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+   gap:3rem;
+   margin-left: 15rem;
+   margin-right: 15rem; 
+}
+.main img{
+    width:100%; 
+    max-height: 10rem;
+} 
+footer .top{
+    
+    color: #f5f6f1;
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 5rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+   margin-top: 3rem;
+   
+
+}
+.main-about{
+    
+    display: grid ;
+    grid-template-columns: 2fr 1fr ;
+    gap: 5rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+   margin-top: 3rem;
+}
+.main-about h2{
+color: #2e7567;
+font-size: 2rem;
+}
+.main-contact h2{
+    color: #32796b;
+font-size: 2rem;
+}
+footer {
+    background-color: #33414c;
+}
+footer .bottom{
+    display: flex;
+    flex-direction: row;
+    
+    color: #eae7df;
+    justify-content: space-around;
+
+}
+footer .bottom .navigator{
+    display: flex;
+    gap: 5rem;
+    height: 60px;
+}
+footer .top .imagegallery .images{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    max-width: 10px;
+    gap: 10px;
+    width: 100%;
+
+}
+.main-contact{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 5rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-top: 25px;
+
+}
+
+.main-contact div form div input{
+    width: 70%;
+    height: 20px;
+
+}
+.main-contact div form div textarea{
+    width: 70%;
+  
+
+}
