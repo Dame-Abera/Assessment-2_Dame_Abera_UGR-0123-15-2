@@ -14,7 +14,9 @@
     font-family: serif;
     font-size: 2rem;
 }
-
+.navbar .button .active{
+    background-color: darksalmon;
+}
 .navbar h1{   text-align: center;
     color: #ba9530;
     font-size: 4rem;
@@ -38,7 +40,7 @@ color: #eae7df;
 .navbar .button a{
     background-color: rgb(90, 146, 44);
     color: #f6f5f2;
-    font: 1.5rem sans-serif;
+    font: 1.2rem sans-serif;
     margin-bottom: 15px;
     border-radius: 10%;
 }
@@ -130,4 +132,13 @@ footer .top .imagegallery .images{
     width: 70%;
   
 
+}
+.main p em{
+    color: #09f4a5;
+}
+.main section p a{
+    color: #b4870b;
+}
+.main section p em{
+color: #30b373;
 }
